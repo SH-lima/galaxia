@@ -1,0 +1,8 @@
+main{
+    position: relative;
+}
+#shuttle{
+    position: absolute;
+    top: 85vh;
+    left: 50%;
+}
