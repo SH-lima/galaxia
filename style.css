@@ -6,3 +6,30 @@ main{
     top: 85vh;
     left: 50%;
 }
+#laser img{
+    margin: 0;
+    padding: 0;
+}
+#laser{
+    position: absolute;
+    left:51.5%;
+  }
+.show{
+    display: none;
+}
+.animation{
+    display: inline;
+    animation-duration: 3s;
+    animation-name: slide;  
+}
+
+@keyframes slide {
+    from {
+      top: 70vh;
+    }
+  
+    to {
+      top: 0;
+      display: none;
+    }
+  }
