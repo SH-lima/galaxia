@@ -13,6 +13,7 @@ main{
 #laser{
     position: absolute;
     left:51.5%;
+    top: 80vh;
   }
 .show{
     display: none;
@@ -20,20 +21,15 @@ main{
 .animation{
     display: inline;
     animation-duration: 1s;
-    animation-name: slide;  
-}
-/* .top{
-  top: 80vh;
-  /* display: none; 
-} */
-
-@keyframes slide {
+    animation-name: block;  
+} 
+@keyframes block {
     from {
       top: 70vh;
     }
   
     to {
-      top: 0;
+      top: -20vh;
       
     }
   }
