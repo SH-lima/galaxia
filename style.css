@@ -20,7 +20,7 @@ main{
 }
 .animation{
     display: inline;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-name: block;  
 } 
 @keyframes block {

@@ -5,12 +5,13 @@ let i = 5
 const initial=()=>{
         laser.style.display=""    
         laser.classList.add("animation")
+       
         setTimeout(function (){
             laser.classList.remove("animation")  
             
-        },1000)
-        
-    }
+        },500)
+     }    
+    
  
 window.addEventListener("keydown", function(e){
     console.log(e.keyCode)
