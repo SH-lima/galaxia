@@ -19,9 +19,13 @@ main{
 }
 .animation{
     display: inline;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-name: slide;  
 }
+/* .top{
+  top: 80vh;
+  /* display: none; 
+} */
 
 @keyframes slide {
     from {
@@ -30,6 +34,7 @@ main{
   
     to {
       top: 0;
-      display: none;
+      
     }
   }
+
